@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -16,6 +17,8 @@ export default function Home() {
       <div>
       <h1>Olá universo</h1>
     </div>
+    <p><Link href={'/login'}>Login</Link></p>
+    <p><Link href={'/produtos'}>Produtos</Link></p>
     </main>
   );
 }
