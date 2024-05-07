@@ -13,6 +13,3 @@ export default function Login () {
         </div>
     )
 }
-
-/* testanto*/
-/* teste 2*/
